@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="30dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dip"
+            android:gravity="center"
+            android:text="@string/hello"
+            android:textSize="24.5sp"
+            android:textColor="@color/logo_color" />
+
+        <EditText
+            android:id="@+id/usernameEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/login_id_default_color"
+            android:text="账号：" >
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/passwordEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/login_id_default_color"
+            android:text="密码：" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="登录" />
+
+        <Button
+            android:id="@+id/loginRegisterBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="还没有账号？去注册==>" />
+
+        <Button
+            android:id="@+id/loginWithGoogleBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="使用google账户登录==>" />
+    </LinearLayout>
+
+</LinearLayout>

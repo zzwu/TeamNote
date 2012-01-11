@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="logo_color">#64c6d4ef</color>
+    <color name="background_color">#ffe6f0ff</color>
+    <color name="login_id_default_color">#64333333</color>
+</resources>

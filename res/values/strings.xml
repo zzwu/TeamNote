@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">TeamNote</string>
+    <string name="app_name">TeamNote</string>
+    
+       
+   <string name="menu_delete">Delete</string>
+    <string name="menu_insert">Add note</string>
+    <string name="menu_revert">Revert</string>
+    <string name="menu_discard">Discard</string>
+
+    <string name="resolve_edit">Edit note</string>
+    <string name="resolve_title">Edit title</string>  
+
+    <string name="title_create">Create note</string>
+    <string name="title_edit">Edit note</string>
+    <string name="title_notes_list">Note pad</string>   
+    <string name="title_note">Note</string>  
+    <string name="title_edit_title">Note title:</string>  
+      
+    <string name="live_folder_name">Notes</string>
+    
+    <string name="button_ok">OK</string>  
+    
+    <string name="error_title">Error</string>
+    <string name="error_message">Error loading note</string>
+    
+    <!-- register -->
+    <string name="register_welcome_label_text">欢迎注册TeamNote</string>
+    <string name="register_username_label_text">用户名</string>
+    <string name="register_psw_label_text">密码</string>
+    <string name="register_email_label_text">email</string>
+    <string name="register_doregister_btn_text">注册</string>
+</resources>
